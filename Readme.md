@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Сергей Васильев](https://up.htmlacademy.ru/htmlcss/25/user/855491).
-* Наставник: [Никита Рогатнев] (https://github.com/Rogatnev-Nikita).
+* Наставник: [Никита Рогатнев](https://github.com/Rogatnev-Nikita).
 
 ---
 
