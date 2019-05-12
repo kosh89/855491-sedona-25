@@ -15,62 +15,82 @@
     </div>
     <nav class="navigation">
       <ul class="navigation__list">
-        <li class="navigation__item"><a href="index.html">Информация</a></li>
-        <li class="navigation__item"><a href="index.html">Фото и видео</a></li>
+        <li class="navigation__item"><a>Информация</a></li>
+        <li class="navigation__item"><a>Фото и видео</a></li>
         <li class="navigation__item"><a>Карта штата</a></li>
         <li class="navigation__item"><a>Гостиницы</a></li>
       </ul>
     </nav>
   </header>
   <main>
-    <h1 class="visually-hidden">Седона</h1>
+    <h1 class="visually-hidden"><a href="#">Седона</a></h1>
     <section class="hotels">
       <h2 class="visually-hidden">Гостиницы</h2>
       <ul class="hotels__list">
         <li class="hotels__item">
-          <a class="hotels__preview" href="#">
-            <img src="img/hotel-1.jpg" width="135" height="90" alt="Amara Resort & SPA">
-          </a>
-          <div class="hotels__info">
-            <h3 class="hotels__name"><a href="#">Amara Resort & SPA</a></h3>
-            <p class="hotels__type">Гостиница</p>
-            <p class="hotels__cost">От 4000 р.</p>
-            <a class="hotels__more" href="#">Подробнее</a>
-            <a class="hotels__book" href="#">Забронировать</a>
-          </div>
-          <p class="hotels__rating">Рейтинг: 8,5</p>
+          <article class="hotel">
+            <a class="hotel__preview" href="#">
+              <img src="img/hotel-1.jpg" width="135" height="90" alt="Amara Resort & SPA">
+            </a>
+            <div class="hotel__info">
+              <h1 class="hotel__name"><a href="hotel-page.html">Amara Resort & SPA</a></h1>
+              <div class="hotel__column">
+                <span class="hotel__type">Гостиница</span>
+                <a class="hotel__more" href="#">Подробнее</a>
+              </div>
+              <div class="hotel__column">
+                <span class="hotel__cost">От 4000 р.</span>
+                <a class="hotel__book" href="#">Забронировать</a>
+              </div>
+            </div>
+            <p class="hotel__rating">Рейтинг: 8,5</p>
+          </article>
         </li>
         <li class="hotels__item">
-          <a class="hotels__preview" href="#">
-            <img src="img/hotel-2.jpg" width="135" height="90" alt="Desert Quail Inn">
-          </a>
-          <div class="hotels__info">
-            <h3 class="hotels__name"><a href="#">Desert Quail Inn</a></h3>
-            <p class="hotels__type">Мотель</p>
-            <p class="hotels__cost">От 3000 р.</p>
-            <a class="hotels__more" href="#">Подробнее</a>
-            <a class="hotels__book" href="#">Забронировать</a>
-          </div>
-          <p class="hotels__rating">Рейтинг: 8,9</p>
+          <article class="hotel">
+            <a class="hotel__preview" href="#">
+              <img src="img/hotel-2.jpg" width="135" height="90" alt="Desert Quail Inn">
+            </a>
+            <div class="hotel__info">
+              <h1 class="hotel__name"><a href="hotel-page.html">Desert Quail Inn</a></h1>
+              <div class="hotel__column">
+                <p class="hotel__type">Мотель</p>
+                <a class="hotel__more" href="#">Подробнее</a>
+              </div>
+              <div class="hotel__column">
+                <p class="hotel__cost">От 3000 р.</p>
+                <a class="hotel__book" href="#">Забронировать</a>
+              </div>
+            </div>
+            <p class="hotel__rating">Рейтинг: 8,9</p>
+          </article>
         </li>
         <li class="hotels__item">
-          <a class="hotels__preview" href="#">
-            <img src="img/hotel-3.jpg" width="135" height="90" alt="Villas at Poco Diablo">
-          </a>
-          <div class="hotels__info">
-            <h3 class="hotels__name"><a href="#">Villas at Poco Diablo</a></h3>
-            <p class="hotels__type">Апартаменты</p>
-            <p class="hotels__cost">От 2000 р.</p>
-            <a class="hotels__more" href="#">Подробнее</a>
-            <a class="hotels__book" href="#">Забронировать</a>
-          </div>
-          <p class="hotels__rating">Рейтинг: 9,2</p>
+          <article class="hotel">
+            <a class="hotel__preview" href="#">
+              <img src="img/hotel-3.jpg" width="135" height="90" alt="Villas at Poco Diablo">
+            </a>
+            <div class="hotel__info">
+              <h1 class="hotel__name"><a href="hotel-page.html">Villas at Poco Diablo</a></h1>
+              <div class="hotel__column">
+                <p class="hotel__type">Апартаменты</p>
+                <a class="hotel__more" href="#">Подробнее</a>
+              </div>
+              <div class="hotel__column">
+                <p class="hotel__cost">От 2000 р.</p>
+                <a class="hotel__book" href="#">Забронировать</a>
+              </div>
+            </div>
+            <p class="hotel__rating">Рейтинг: 9,2</p>
+          </article>
         </li>
       </ul>
     </section>
   </main>
   <footer class="footer">
-    <p class="footer__hashtag">#VISITSEDONA</p>
+    <div class="footer__hashtag">
+      <a href="#">#VISITSEDONA</a>
+    </div>
     <div class="footer__social">
       <ul class="social__list">
         <li><a href="#" class="social__link">Twitter</a></li>
