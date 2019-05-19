@@ -10,7 +10,7 @@
   <header class="header">
     <div class="header__logo">
       <a>
-        <img src="img/svg/logo-sedona.svg" width="140" height="72" alt="logo">
+        <img src="img/svg/logo-sedona.svg" width="140" height="72" alt="Логотип Седона">
       </a>
     </div>
     <nav class="navigation">
@@ -25,7 +25,7 @@
   <main>
     <h1 class="visually-hidden">Седона</h1>
     <section class="features">
-      <img src="sedona.jpg" alt="sedona">
+      <img src="sedona.jpg" alt="Седона">
       <h2 class="visually-hidden">Преимущества</h2>
       <b>Седона — небольшой городок в Аризоне, заслуживающий большего!</b>
       <p>Рассмотрим 5 причин, по которым Седона круче, чем гранд каньон!</p>
@@ -35,11 +35,11 @@
       <b>Заинтересовались?</b>
       <p>Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в седоне</p>
       <a href="#">Поиск гостиницы в Седоне</a>
-      <form class="search-hotel__form">
-        <label for="arrival">Дата заезда:</label><input id="arrival" type="date">
-        <label for="departure">Дата отъезда:</label><input id="departure" type="date">
-        <label for="adults">Взрослые:</label><input id="adults" type="number">
-        <label for="children">Дети:</label><input id="children" type="number">
+      <form class="search-hotel__form" action="https://echo.htmlacademy.ru" method="post">
+        <label for="arrival">Дата заезда:</label><input id="arrival" name="arrival" type="date">
+        <label for="departure">Дата отъезда:</label><input id="departure" name="departure" type="date">
+        <label for="adults">Взрослые:</label><input id="adults" name="adults" type="number">
+        <label for="children">Дети:</label><input id="children" name="children" type="number">
         <input type="submit" value="Найти">
       </form>
     </section>
