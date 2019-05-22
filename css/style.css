@@ -3,9 +3,9 @@ body {
   padding: 0;
   
   font-family: 'PT Sans', Arial, sans-serif;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 700;
-  line-height: 24px;
+  line-height: 26px;
   color: #000;
   background-color: #fff;
   text-transform: uppercase;
@@ -25,3 +25,146 @@ a {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+
+.navigation__list {
+  list-style: none;
+}
+
+.navigation__list a {
+  color: #000;
+}
+
+.navigation__list a:hover {
+  color: #81b3d2;
+}
+
+.navigation__list a:active {
+  color: #000;
+  opacity: .3;
+}
+
+.navigation__list .active {
+  color: #766357;
+}
+
+.features b {
+  font-size: 21px;
+}
+
+.features p {
+  color: #333;
+  font-weight: 400;
+}
+
+.search-hotel b {
+  font-size: 30px;
+  line-height: 36px;
+}
+
+.search-hotel p {
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+.search-hotel__show-form {
+  display: block;
+  width: 568px;
+  height: 86px;
+  background-color: #766357;
+  
+  font-size: 21px;
+  line-height: 86px;
+  color: #fff;
+  text-align: center;
+}
+
+.hotel__book {
+  background-color: #766357;
+  color: #fff;
+}
+
+.search-hotel__show-form:hover,
+.hotel__book:hover {
+  background-color: #604e43;
+}
+
+.search-hotel__show-form:active,
+.hotel__book:active {
+  background-color: #503e33;
+  color: #928a85;
+}
+
+.search-hotel__form {
+  display: none;
+}
+
+/* === footer === */
+
+.footer__hashtag a {
+  font-size: 21px;
+  line-height: 26px;
+  color: #000;
+}
+
+.social__list {
+  list-style: none;
+}
+
+.hotel__more {
+  color: #fff;
+}
+
+.social__link,
+.hotel__more {
+  background-color: #81b3d2;
+}
+
+.social__link:hover,
+.hotel__more:hover {
+  background-color: #669ec0;
+}
+
+.social__link:active,
+.hotel__more:active {
+  background-color: #5496bd;
+  color: #88b6d1;
+}
+
+.footer__copyright span {
+  font-weight: 400;
+}
+
+/* === catalog === */
+
+.hotels__list {
+  list-style: none;
+}
+
+.hotel__name a {
+  font-size: 21px;
+  color: #000;
+}
+
+.hotel__name a:hover {
+  color: #81b3d2;
+}
+
+.hotel__name a:active {
+  color: #000;
+  opacity: .3;
+}
+
+.hotel__type,
+.hotel__cost,
+.hotel__rating p {
+  line-height: 21px;
+  font-weight: 400;
+  color: #333;
+}
+
+.hotel__rating p {
+  color: #666;
+  background-color: #f2f2f2;
+}
+

@@ -28,7 +28,9 @@
   <main>
     <h1 class="visually-hidden">Седона</h1>
     <section class="features">
-      <img src="sedona.jpg" alt="Седона">
+      <div class="features__background">
+        <img src="img/background-main.jpg" alt="Седона">
+      </div>
       <h2 class="visually-hidden">Преимущества</h2>
       <b>Седона — небольшой городок в Аризоне, заслуживающий большего!</b>
       <p>Рассмотрим 5 причин, по которым Седона круче, чем гранд каньон!</p>
@@ -36,8 +38,9 @@
     <section class="search-hotel">
       <h2 class="visually-hidden">Поиск гостиницы</h2>
       <b>Заинтересовались?</b>
-      <p>Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в седоне</p>
-      <a href="#">Поиск гостиницы в Седоне</a>
+      <p>Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в седоне</p>      
+      <a class="search-hotel__show-form" href="#">Поиск гостиницы в Седоне</a>
+      <!-- Форма временно скрыта -->
       <form class="search-hotel__form" action="https://echo.htmlacademy.ru" method="post">
         <label for="arrival">Дата заезда:</label><input id="arrival" name="arrival" type="date">
         <label for="departure">Дата отъезда:</label><input id="departure" name="departure" type="date">
@@ -60,7 +63,8 @@
     </div>
     <div class="footer__copyright">
       <span>Websyte by</span>
-      <a href="https://htmlacademy.ru" target="blank"><img src="img/svg/logo-htmlacademy.svg" width="115" height="41" alt="Логотип htmlacademy"></a>
+      <a href="https://htmlacademy.ru" target="blank"><img src="img/svg/logo-htmlacademy.svg" width="115" height="41"
+          alt="Логотип htmlacademy"></a>
     </div>
   </footer>
 </body>
