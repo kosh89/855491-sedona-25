@@ -159,6 +159,10 @@ ul, p, h1, h2, h3 {
   padding: 47px 49px 0;
 }
 
+.features__preview {
+  background-color: #e8a696;
+}
+
 .features__preview img {
   width: 100%;
   display: block;
