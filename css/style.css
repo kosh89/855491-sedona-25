@@ -25,11 +25,6 @@ a {
   text-decoration: none;
 }
 
-ul, p, h1, h2, h3 {
-  margin: 0;
-  padding: 0;
-}
-
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -57,6 +52,8 @@ ul, p, h1, h2, h3 {
   list-style: none;
   display: flex;
   justify-content: flex-start;
+  margin: 0;
+  padding: 0;
 }
 
 .navigation__item {
@@ -90,11 +87,14 @@ ul, p, h1, h2, h3 {
   text-align: center;
 }
 
-.features p, .features span {
+.features p, 
+.features span {
   font-weight: 400;
   color: #333;
   font-size: 14px;
   line-height: 21px;
+  margin: 0;
+  padding: 0;
 }
 
 .features__intro b {
@@ -111,6 +111,8 @@ ul, p, h1, h2, h3 {
   list-style: none;
   display: flex;
   flex-direction: column;
+  margin: 0;
+  padding: 0;
 }
 
 .features__line {
@@ -131,6 +133,8 @@ ul, p, h1, h2, h3 {
 }
 
 .features h3 {
+  margin: 0;
+  padding: 0;
   font-size: 21px;
   line-height: 21px;
   color: #000;  
@@ -201,6 +205,8 @@ ul, p, h1, h2, h3 {
   line-height: 24px;
   font-weight: 400;
   color: #333;
+  margin: 0;
+  padding: 0;
   margin-bottom: 47px;
 }
 
@@ -281,6 +287,8 @@ ul, p, h1, h2, h3 {
 .social__list {
   list-style: none;
   display: flex;
+  margin: 0;
+  padding: 0;
 }
 
 .social__list li:nth-child(2) {
@@ -341,8 +349,16 @@ ul, p, h1, h2, h3 {
 
 /* === catalog === */
 
+.hotels p,
+.hotels h1 {
+  margin: 0;
+  padding: 0;
+}
+
 .hotels__list {
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 .hotels__item {
@@ -367,7 +383,7 @@ ul, p, h1, h2, h3 {
 
 .hotel__name {
   width: 100%;
-  font-size:  21px;  
+  font-size:  21px;
 }
 
 .hotel__name a {  
