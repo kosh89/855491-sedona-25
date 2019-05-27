@@ -10,108 +10,119 @@
 </head>
 
 <body>
-  <header class="header">
-    <div class="header__logo">
-      <a href="index.html">
-        <img src="img/svg/logo-sedona.svg" width="140" height="72" alt="Логотип Седона">
-      </a>
-    </div>
-    <nav class="navigation">
-      <ul class="navigation__list">
-        <li class="navigation__item"><a href="#">Информация</a></li>
-        <li class="navigation__item"><a href="#">Фото и видео</a></li>
-        <li class="navigation__item"><a href="#">Карта штата</a></li>
-        <li class="navigation__item"><a class="active">Гостиницы</a></li>
-      </ul>
-    </nav>
-  </header>
-  <main>
-    <h1 class="visually-hidden">Седона</h1>
-    <section class="hotels">
-      <h2 class="visually-hidden">Гостиницы</h2>
-      <ul class="hotels__list">
-        <li class="hotels__item">
-          <article class="hotel">
-            <a class="hotel__preview" href="#">
-              <img src="img/hotel-preview/hotel-1.jpg" width="135" height="90" alt="Amara Resort & SPA">
+  <div class="wrapper">
+    <header class="header">
+      <div class="header__logo">
+        <a href="index.html">
+          <img src="img/svg/logo-sedona.svg" width="140" height="72" alt="Логотип Седона">
+        </a>
+      </div>
+      <nav class="navigation">
+        <ul class="navigation__list">
+          <li class="navigation__item"><a href="#">Информация</a></li>
+          <li class="navigation__item"><a href="#">Фото и видео</a></li>
+          <li class="navigation__item"><a href="#">Карта штата</a></li>
+          <li class="navigation__item"><a class="active">Гостиницы</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h1 class="visually-hidden">Седона</h1>
+
+      <section class="filter">
+        <img src="img/temp.jpg" alt="Временное изображение">
+      </section>
+      <section class="hotels">
+        <h2 class="visually-hidden">Гостиницы</h2>
+        <ul class="hotels__list">
+          <li class="hotels__item">
+            <article class="hotel">
+              <a class="hotel__preview" href="#">
+                <img src="img/hotel-preview/hotel-1.jpg" width="135" height="90" alt="Amara Resort & SPA">
+              </a>
+              <div class="hotel__info">
+                <h1 class="hotel__name"><a href="#">Amara Resort & SPA</a></h1>
+                <div class="hotel__column">
+                  <span class="hotel__type">Гостиница</span>
+                  <a class="hotel__more" href="#">Подробнее</a>
+                </div>
+                <div class="hotel__column">
+                  <span class="hotel__cost">От 4000 р.</span>
+                  <a class="hotel__book" href="#">Забронировать</a>
+                </div>
+              </div>
+              <div class="hotel__rating">
+                <p>Рейтинг: 8,5</p>
+              </div>
+            </article>
+          </li>
+          <li class="hotels__item">
+            <article class="hotel">
+              <a class="hotel__preview" href="#">
+                <img src="img/hotel-preview/hotel-2.jpg" width="135" height="90" alt="Desert Quail Inn">
+              </a>
+              <div class="hotel__info">
+                <h1 class="hotel__name"><a href="#">Desert Quail Inn</a></h1>
+                <div class="hotel__column">
+                  <span class="hotel__type">Мотель</span>
+                  <a class="hotel__more" href="#">Подробнее</a>
+                </div>
+                <div class="hotel__column">
+                  <span class="hotel__cost">От 3000 р.</span>
+                  <a class="hotel__book" href="#">Забронировать</a>
+                </div>
+              </div>
+              <div class="hotel__rating">
+                <p>Рейтинг: 8,9</p>
+              </div>
+            </article>
+          </li>
+          <li class="hotels__item">
+            <article class="hotel">
+              <a class="hotel__preview" href="#">
+                <img src="img/hotel-preview/hotel-3.jpg" width="135" height="90" alt="Villas at Poco Diablo">
+              </a>
+              <div class="hotel__info">
+                <h1 class="hotel__name"><a href="#">Villas at Poco Diablo</a></h1>
+                <div class="hotel__column">
+                  <span class="hotel__type">Апартаменты</span>
+                  <a class="hotel__more" href="#">Подробнее</a>
+                </div>
+                <div class="hotel__column">
+                  <span class="hotel__cost">От 2000 р.</span>
+                  <a class="hotel__book" href="#">Забронировать</a>
+                </div>
+              </div>
+              <div class="hotel__rating">
+                <p>Рейтинг: 9,2</p>
+              </div>
+            </article>
+          </li>
+        </ul>
+      </section>
+    </main>
+    <footer class="footer">
+        
+        <div class="footer__content">
+          <div class="footer__hashtag">
+            <a href="#">#VISITSEDONA</a>
+          </div>
+          <div class="social">
+            <ul class="social__list">
+              <li><a href="#" class="social__link twitter">Twitter</a></li>
+              <li><a href="#" class="social__link facebook">Facebook</a></li>
+              <li><a href="#" class="social__link youtube">Youtube</a></li>
+            </ul>
+          </div>
+          <div class="footer__copyright">
+            <span>Websyte by &nbsp;</span>
+            <a href="https://htmlacademy.ru" target="blank">
+              <img src="img/svg/logo-htmlacademy.svg" width="115" height="41" alt="Логотип htmlacademy">
             </a>
-            <div class="hotel__info">
-              <h1 class="hotel__name"><a href="#">Amara Resort & SPA</a></h1>
-              <div class="hotel__column">
-                <span class="hotel__type">Гостиница</span>
-                <a class="hotel__more" href="#">Подробнее</a>
-              </div>
-              <div class="hotel__column">
-                <span class="hotel__cost">От 4000 р.</span>
-                <a class="hotel__book" href="#">Забронировать</a>
-              </div>
-            </div>
-            <div class="hotel__rating">
-              <p>Рейтинг: 8,5</p>
-            </div>
-          </article>
-        </li>
-        <li class="hotels__item">
-          <article class="hotel">
-            <a class="hotel__preview" href="#">
-              <img src="img/hotel-preview/hotel-2.jpg" width="135" height="90" alt="Desert Quail Inn">
-            </a>
-            <div class="hotel__info">
-              <h1 class="hotel__name"><a href="#">Desert Quail Inn</a></h1>
-              <div class="hotel__column">
-                <span class="hotel__type">Мотель</span>
-                <a class="hotel__more" href="#">Подробнее</a>
-              </div>
-              <div class="hotel__column">
-                <span class="hotel__cost">От 3000 р.</span>
-                <a class="hotel__book" href="#">Забронировать</a>
-              </div>
-            </div>
-            <div class="hotel__rating">
-              <p>Рейтинг: 8,9</p>
-            </div>
-          </article>
-        </li>
-        <li class="hotels__item">
-          <article class="hotel">
-            <a class="hotel__preview" href="#">
-              <img src="img/hotel-preview/hotel-3.jpg" width="135" height="90" alt="Villas at Poco Diablo">
-            </a>
-            <div class="hotel__info">
-              <h1 class="hotel__name"><a href="#">Villas at Poco Diablo</a></h1>
-              <div class="hotel__column">
-                <span class="hotel__type">Апартаменты</span>
-                <a class="hotel__more" href="#">Подробнее</a>
-              </div>
-              <div class="hotel__column">
-                <span class="hotel__cost">От 2000 р.</span>
-                <a class="hotel__book" href="#">Забронировать</a>
-              </div>
-            </div>
-            <div class="hotel__rating">
-              <p>Рейтинг: 9,2</p>
-            </div>
-          </article>
-        </li>
-      </ul>
-    </section>
-  </main>
-  <footer class="footer">
-    <div class="footer__hashtag">
-      <a href="#">#VISITSEDONA</a>
-    </div>
-    <div class="social">
-      <ul class="social__list">
-        <li><a href="#" class="social__link">Twitter</a></li>
-        <li><a href="#" class="social__link">Facebook</a></li>
-        <li><a href="#" class="social__link">Youtube</a></li>
-      </ul>
-    </div>
-    <div class="footer__copyright">
-      <span>Websyte by</span>
-      <a href="https://htmlacademy.ru" target="blank"><img src="img/svg/logo-htmlacademy.svg" width="115" height="41" alt="Логотип htmlacademy"></a>
-    </div>
-  </footer>
+          </div>
+        </div>
+      </footer>
+  </div>
 </body>
 
 </html>

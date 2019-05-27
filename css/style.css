@@ -25,13 +25,9 @@ a {
   text-decoration: none;
 }
 
-ul {
+ul, p, h1, h2, h3 {
   margin: 0;
   padding: 0;
-}
-
-p {
-  margin: 0;
 }
 
 .visually-hidden {
@@ -137,8 +133,7 @@ p {
 .features h3 {
   font-size: 21px;
   line-height: 21px;
-  color: #000;
-  margin: 0;
+  color: #000;  
   margin-bottom: 22px;
 }
 
@@ -152,14 +147,8 @@ p {
   width: auto;
 }
 
-.features__item--with-preview h3 {
-  color: #fff;
-}
-
-.features__item--with-preview span {
-  color: #fff;
-}
-
+.features__item--with-preview h3,
+.features__item--with-preview span,
 .features__item--with-preview p {
   color: #fff;
 }
@@ -248,7 +237,7 @@ p {
 
 /* === footer === */
 
-.footer {  
+.footer-main {  
   position: absolute;
   width: 100%;
   bottom: 0px;  
@@ -260,7 +249,7 @@ p {
   bottom: 0;
   right: 0;
   left: 0;
-  opacity: .9;
+  opacity: .85;
   background-color: #fff;
   z-index: 1;
 }
@@ -352,8 +341,32 @@ p {
   list-style: none;
 }
 
-.hotel__name a {
-  font-size: 21px;
+.hotels__item {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.hotel {
+  display: flex;
+  align-items: stretch;
+  padding: 30px 70px;
+}
+
+.hotel__preview img {
+  display: block;
+}
+
+.hotel__info {
+  display: flex;
+  flex-flow: row wrap;
+  padding-left: 30px;
+}
+
+.hotel__name {
+  width: 100%;
+  font-size:  21px;  
+}
+
+.hotel__name a {  
   color: #000;
 }
 
@@ -366,10 +379,22 @@ p {
   opacity: .3;
 }
 
+.hotel__column {
+  display: flex;
+  flex-direction: column;
+  margin-right: 6px;
+  justify-content: space-between;
+}
+
 .hotel__type, .hotel__cost, .hotel__rating p {
   line-height: 21px;
   font-weight: 400;
   color: #333;
+}
+
+.hotel__rating {
+  align-self: flex-end;
+  margin-left: auto;
 }
 
 .hotel__rating p {
@@ -380,4 +405,5 @@ p {
 .hotel__more,
 .hotel__book {
   line-height: 21px;
+  padding: 3px 17px;
 }
