@@ -1,3 +1,7 @@
+*, *::before, *::after {
+  box-sizing: inherit
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -9,10 +13,6 @@ body {
   color: #000;
   background-color: #fff;
   text-transform: uppercase;
-}
-
-*, *::before, *::after {
-  box-sizing: inherit
 }
 
 .wrapper {
@@ -170,10 +170,6 @@ a {
 .features__preview img {
   width: 100%;
   display: block;
-}
-
-.features__icon {
-  margin: 10px 0 20px;
 }
 
 .features__line:last-child {
