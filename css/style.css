@@ -352,8 +352,20 @@ a {
 }
 
 .footer__copyright a {
-  line-height: 0px;
+  display: flex;
 }
+
+.footer__copyright a:hover path {
+  fill: #81b3d2;
+}
+
+.footer__copyright a:active path {
+  fill: #bdbbbc;
+}
+
+/* .footer__copyright a {
+  line-height: 0px;
+} */
 
 /* === catalog === */
 
@@ -421,7 +433,10 @@ a {
 }
 
 .hotel__rating {
-  align-self: flex-end;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
   margin-left: auto;
 }
 
