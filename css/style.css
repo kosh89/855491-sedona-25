@@ -128,21 +128,21 @@ a {
   width: 400px;
 }
 
-.features__motel {
+.features__item--motel {
   background-image: url(../img/features/motel.png);
   background-repeat: no-repeat;
   background-position: 50% 23%;
   padding-top: 162px;
 }
 
-.features__food {
+.features__item--food {
   background-image: url(../img/features/food.png);
   background-repeat: no-repeat;
   background-position: 50% 23%;
   padding-top: 162px;
 }
 
-.features__souvenirs {
+.features__item--souvenirs {
   background-image: url(../img/features/souvenirs.png);
   background-repeat: no-repeat;
   background-position: 50% 23%;
@@ -317,7 +317,8 @@ a {
   color: #fff;
 }
 
-.social__link, .hotel__more {
+.social__link, 
+.hotel__more {
   background-color: #81b3d2;
 }
 
@@ -329,16 +330,18 @@ a {
   height: 48px;
 }
 
-.social__link:hover, .hotel__more:hover {
+.social__link:hover, 
+.hotel__more:hover {
   background-color: #669ec0;
 }
 
-.social__link:active, .hotel__more:active {
+.social__link:active, 
+.hotel__more:active {
   background-color: #5496bd;
   color: #88b6d1;
 }
 
-.social__link:active path {
+.social__link:active svg {
   fill-opacity: 0.3;
 }
 
@@ -351,15 +354,20 @@ a {
   font-weight: 400;
 }
 
-.footer__copyright a {
+.footer__htmlacademy {
   display: flex;
+  align-items: center;
 }
 
-.footer__copyright a:hover path {
+.footer__htmlacademy svg {
+  fill: #231f20;
+}
+
+.footer__htmlacademy:hover svg {
   fill: #81b3d2;
 }
 
-.footer__copyright a:active path {
+.footer__htmlacademy:active svg {
   fill: #bdbbbc;
 }
 
