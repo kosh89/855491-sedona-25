@@ -567,6 +567,84 @@ a {
   background: #ffffff;
 }
 
+.results {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 24px 72px 19px;
+  align-items: baseline;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.results__quantity {
+  font-size: 21px;
+  line-height: 26px;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 0;
+  margin-right: 49px;
+}
+
+.sort__title,
+.sort__type {
+  font-size: 12px;
+  line-height: 18px;
+  color: #000;
+  font-weight: 400;
+  margin-right: 40px;
+}
+
+.results__sort {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.sort__type {
+  color: #cacaca;
+  border-bottom: 1px dotted #81b3d2;
+  margin-right: 34px;
+}
+
+.sort__type--active {
+  color: #81b3d2;
+  border-bottom: none;
+}
+
+.sort__type:hover {
+  color: #81b3d2;
+  border-bottom: 1px dotted #81b3d2;
+}
+
+.sort__type:active {
+  color: #231f20;
+  border-bottom: none;
+}
+
+.sort__arrows {
+  margin-left: auto;
+}
+
+.sort__arrow svg {
+  fill: #cacaca;
+}
+
+.sort__arrow--active svg {
+  fill: #81b3d2;
+}
+
+.sort__arrow:hover svg {
+  fill: #231f20;
+}
+
+.sort__arrow:active svg {
+  fill: #81b3d2;
+}
+
+.sort__arrow--descending {
+  margin-left: 10px;
+}
+
 .hotels p,
 .hotels h1 {
   margin: 0;
@@ -624,10 +702,16 @@ a {
   justify-content: space-between;
 }
 
-.hotel__type, .hotel__cost, .hotel__rating p {
+.hotel__type, 
+.hotel__cost, 
+.hotel__rating p {
   line-height: 21px;
   font-weight: 400;
   color: #333;
+}
+
+.hotel__type {
+  margin-bottom: 12px;
 }
 
 .hotel__rating {
@@ -641,6 +725,11 @@ a {
 .hotel__rating p {
   color: #666;
   background-color: #f2f2f2;
+  padding: 5px 15px;
+}
+
+.hotel__stars svg {
+  margin-left: 3px;
 }
 
 .hotel__more,
