@@ -422,6 +422,7 @@ img {
   border: 0;
   background-image: url(../img/background-map.jpg);
   background-repeat: no-repeat;
+  background-color: #cbdda9;
 }
 
 /* === footer === */
@@ -599,6 +600,14 @@ img {
 
 .filter__checkbox:checked + label::before {
   background-image: url(../img/svg/checkbox-on.svg);
+}
+
+.filter__checkbox:disabled + label::before {
+  background-image: url(../img/svg/checkbox-off-disabled.svg);
+}
+
+.filter__checkbox:checked:disabled + label::before {
+  background-image: url(../img/svg/checkbox-on-disabled.svg);
 }
 
 .filter ul {
