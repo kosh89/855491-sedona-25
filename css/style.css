@@ -341,12 +341,12 @@ a {
 
 .search-hotel__sign {
   position: absolute;
-  width: 12px;
-  height: 12px;
+  width: 38px;
+  height: 38px;
   background-color: transparent;
   border: none;
   outline: none;
-  top: 12px;
+  top: 0px;
   margin: 0;
   padding: 0;
   cursor: pointer;  
@@ -357,12 +357,11 @@ a {
 }
 
 .search-hotel__minus {
-  left: 12px;
+  left: 0px;
 }
 
 .search-hotel__plus {
-  right: 12px;
-  top: 12px;
+  right: 0px;
 }
 
 .search-hotel__sign:hover svg {
@@ -396,6 +395,15 @@ a {
   text-transform: uppercase;
   padding: 16px 20px;
   margin-top: 22px;
+}
+
+.search-hotel__submit:hover {
+  background-color: #669ec0;
+}
+
+.search-hotel__submit:active {
+  background-color: #5496bd;
+  color: #88b6d1;
 }
 
 .map {
