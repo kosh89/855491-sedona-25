@@ -283,6 +283,13 @@ img {
   flex-direction: column;
 }
 
+.search-hotel__form--no-js {
+  display: flex;
+  width: 568px;
+  position: static;
+  margin: 90px auto;
+}
+
 .search-hotel__form--active {
   display: flex;
 }
