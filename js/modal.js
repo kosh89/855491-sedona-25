@@ -1,8 +1,11 @@
 const showFormBtn = document.querySelector('.search-hotel__show-form');
 const searchForm = document.querySelector('.search-hotel__form');
+const arrival = searchForm.querySelector('#arrival');
+const departure = searchForm.querySelector('#departure');
 const adults = searchForm.querySelector('#adults');
 const children = searchForm.querySelector('#children');
 const formActiveClass = 'search-hotel__form--active';
+const formErrorClass = 'search-hotel__form--error';
 
 let isStorageSupport = true;
 let storageAdults = '';
@@ -18,6 +21,7 @@ try {
 showFormBtn.addEventListener('click', function (e) {
   e.preventDefault();
   searchForm.classList.toggle(formActiveClass);
+  searchForm.classList.remove(formErrorClass);
 })
 
 if (storageAdults) {
@@ -29,9 +33,11 @@ if (storageChildren) {
 }
 
 searchForm.addEventListener('submit', function (e) {
-  if (!adults.value || !children.value) {
+  if (!arrival.value || !departure.value || !adults.value || !children.value) {
     e.preventDefault();
-    console.log(adults.value, children.value)
+    searchForm.classList.remove(formErrorClass);
+    searchForm.offsetWidth = searchForm.offsetWidth;
+    searchForm.classList.add(formErrorClass);    
   } else {
     if (isStorageSupport) {
       localStorage.setItem('adults', adults.value);
