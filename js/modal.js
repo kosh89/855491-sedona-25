@@ -4,7 +4,7 @@ const arrival = searchForm.querySelector('#arrival');
 const departure = searchForm.querySelector('#departure');
 const adults = searchForm.querySelector('#adults');
 const children = searchForm.querySelector('#children');
-const formActiveClass = 'search-hotel__form--active';
+const formHiddenClass = 'search-hotel__form--hidden';
 const formErrorClass = 'search-hotel__form--error';
 
 let isStorageSupport = true;
@@ -20,7 +20,7 @@ try {
 
 showFormBtn.addEventListener('click', function (e) {
   e.preventDefault();
-  searchForm.classList.toggle(formActiveClass);
+  searchForm.classList.toggle(formHiddenClass);
   searchForm.classList.remove(formErrorClass);
 })
 
