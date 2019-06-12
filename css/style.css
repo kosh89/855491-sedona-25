@@ -317,6 +317,8 @@ img {
           flex-direction: row;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   -ms-flex-direction: column;
       flex-direction: column;
@@ -337,9 +339,7 @@ img {
   margin: 90px auto;
 }
 
-.search-hotel__form--hidden {
-  display: -webkit-box;
-  display: -ms-flexbox;
+.search-hotel__form--hidden {  
   display: none;
 }
 
