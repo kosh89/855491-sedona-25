@@ -105,7 +105,7 @@ img {
 }
 
 .features__intro {
-  padding: 52px 0 50px 0;
+  padding: 52px 290px 50px;
   text-align: center;
 }
 
@@ -192,7 +192,7 @@ img {
 
 .features h3 {
   margin: 0;
-  padding: 0;
+  padding: 0 70px;
   font-size: 21px;
   line-height: 21px;
   color: #000;  
@@ -201,6 +201,7 @@ img {
 
 .features__text p {
   margin-top: 20px;
+  padding: 0 22px;
 }
 
 .features__item--with-preview {
@@ -217,6 +218,10 @@ img {
 .features__item--with-preview span,
 .features__item--with-preview p {
   color: #fff;
+}
+
+.features__item--with-preview p {
+  padding: 0;
 }
 
 .features__item--with-preview .features__text {
@@ -718,6 +723,7 @@ img {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  color: #000;
 }
 
 .footer__htmlacademy svg {
@@ -731,10 +737,6 @@ img {
 .footer__htmlacademy:active svg {
   fill: #bdbbbc;
 }
-
-/* .footer__copyright a {
-  line-height: 0px;
-} */
 
 /* === catalog === */
 
